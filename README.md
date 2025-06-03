@@ -52,7 +52,7 @@ in
 Retrieves a named value (from a named cell) in the current Excel workbook. Returns a default value if the name is not found or is empty.
 
 **Signature**
-GetNamedValue(valueName as text, defaultValue as text) as text
+`GetNamedValue(valueName as text, defaultValue as text) as text`
 
 **Parameters**
 
@@ -133,6 +133,7 @@ These are used to construct OData `$filter` expressions.
 Builds and executes an OData query against a given instance and view, supporting filters, selection, and ordering.
 
 **Signature**
+```
 Query(
  InstanceUrl as text,
  View as text,
@@ -140,6 +141,7 @@ Query(
  optional Filters as list,
  optional OrderBy as nullable text
 ) as table
+```
 
 **Parameters**
 
