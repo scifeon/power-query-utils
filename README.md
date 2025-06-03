@@ -1,8 +1,16 @@
 # Scifeon OData Utils for Power Query
 
-Copy the contents of scifeon.m into a blank query in the Power Query Editor. Name the query "Scifeon".
+1. Open the Power Query Editor
+2. Create a new Blank Query
+3. Name the query "Scifeon"
+4. Open the Advanced Editor
+5. Copy and paste the contents of `scifeon.m` in the editor
+
+<img width="903" alt="image" src="https://github.com/user-attachments/assets/f92430c2-7d25-400c-bd67-ff714f02ed4a" />
+
 
 ## Example Query
+Example query that fetches all samples that were created within the current year.
 
 ```
 let
