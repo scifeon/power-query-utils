@@ -60,7 +60,7 @@ let
         In = In, NotIn = NotIn,
         IsNull = IsNull, IsNotNull = IsNotNull,
         IsEmpty = IsEmpty, IsNotEmpty = IsNotEmpty,
-        Contains = Contains, DoesNotContain = DoesNotContain,
+        Contains = Contains,
         StartsWith = StartsWith, EndsWith = EndsWith,
         Template = Template,
         And = And, Or = Or
